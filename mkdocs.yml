@@ -1,0 +1,70 @@
+site_name: Aeon Data
+nav:
+  - Blocks:
+      - Blockchain Growth Monthly: 'charts/block_size.md'
+      - Block Reward: 'charts/block_reward.md'
+      - Blockchain Size: 'charts/block_size_cum.md'
+      - Count:
+        - Daily Block Count: 'charts/block_count_24h.md'
+        - Total Number of Blocks: 'charts/block_height.md'
+      - Version: 'charts/version.md'
+  - Currency:
+    - Price:
+      - BTC Price: 'charts/price_btc.md'
+      - USD Price: 'charts/price.md'
+      - XMR Price: 'charts/price_xmr.md'
+    - Inflation: 'charts/inflation_1Y.md'
+    - Marketcap:
+      - USD Marketcap: 'charts/marketcap.md'
+      - BTC Marketcap: 'charts/marketcap_btc.md'
+      - XMR Marketcap: 'charts/marketcap_xmr.md'
+    - Supply:
+      - Circulating Supply: 'charts/supply_circulating.md'
+      - Locked Supply: 'charts/supply_locked.md'
+      - Total Supply: 'charts/supply_total.md'
+  - Mining:
+    - Difficulty (KangarooTwelve): 'charts/block_difficulty.md'
+    - Difficulty (Early Algorithms): 'charts/block_difficulty_old.md'
+    - Nonce Randomness: 'charts/nonce_dist.md'
+    - Nonce Values: 'charts/nonce.md'
+    - Miner Revenue: 'charts/miner_revenue.md'
+  - Transactions:
+      - Transaction Count: 'charts/tx.md'
+      - Average Output: 'charts/tx_avg.md'
+      - Average Fee: 'charts/fee.md'
+      - Inputs/Outputs: 
+        - Monthly Transaction Inputs: 'charts/inputs.md'
+        - Monthly Transaction Outputs: 'charts/outputs.md'
+        - Monthly Transaction Outputs-Inputs: 'charts/outputs_inputs.md'
+      - Volume: 'charts/volume.md'
+  - Social:
+      - /r/aeon Monthly Comment Count: 'charts/reddit_comments.md'
+      - /r/aeon Monthly Post Count: 'charts/reddit_posts.md'
+theme: 
+  features:
+    - navigation.tabs
+  logo: ae-coin.svg
+  favicon: favicon-32x32.png
+  palette:
+    scheme: default
+  name: material
+  custom_dir: overrides
+  font:
+    text: Ubuntu Mono
+    code: Courier
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/AeonCommunity
+      name: \@AeonCommunity
+    - icon: fontawesome/brands/medium
+      link: https://aeon-community.medium.com
+      name: AEON Community
+    - icon: fontawesome/brands/github
+      link: https://github.com/aeonix/aeon
+      name: Source Code
+markdown_extensions: 
+  - attr_list
+copyright: <a href="https://github.com/ivoryguru/aeondata/" style="color:#03a9f4">Edit me</a> or <a href="https://github.com/ivoryguru/aeondata/discussions/" style="color:#03a9f4">ask a question</a>. aeon.wiki ecosystem:&nbsp;<a href="https://aeon.wiki" style="color:#03a9f4">wiki</a>, <a href="https://docs.aeon.wiki" style="color:#03a9f4">docs</a>, <a href="https://data.aeon.wiki" style="color:#03a9f4">data</a>. Copyright 2021 aeon.wiki Apache 2.0 licensed.
+extra_css:
+  - extra.css

@@ -1,0 +1,12 @@
+{% extends "data.html" %}
+{% block content %}
+<div id="dashboard_div" >
+  <div id="line_div" style="height:40ch;width:100%;"></div>
+  <button id="linear-scale" class="md-button" style="float:left">Linear</button>
+  <button id="log-scale" class="md-button" style="float:left">Logarithmic</button>
+  <button id="1Y" class="md-button" style="visibility:hidden">1Y</button>
+  <button id="3Y" class="md-button"style="visibility:hidden">3Y</button>
+  <button id="all" class="md-button" style="visibility:hidden">All</button>
+</div>
+{{ page.content }}
+{% endblock %}
